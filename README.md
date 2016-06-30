@@ -24,5 +24,7 @@ Uses CSS from [Foundation Essentials](http://foundation.zurb.com/)
 
 ## Ideas for Future
 
-* local-storage
+* Improve rounding in view::formatFloat
+* validate int vs float inputs, currently resets to zero
+* local-storage for storing last values
 * better distribution creation

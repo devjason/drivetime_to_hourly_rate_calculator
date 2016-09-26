@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "summary": "Mileage-Hourly Rate Calculator",
+    "version": "1.1.0",
+    "summary": "Drive Time to Hourly Rate Calculator",
     "repository": "https://github.com/weirdo-elm-requirement/fakerepo.git",
     "license": "GPL-3.0",
     "source-directories": [

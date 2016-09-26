@@ -1,6 +1,6 @@
-# Mileage to Hourly Rate Converter
+# Drive time to Hourly Rate Converter
 
-Custom calculator to handle reimbursement of mileage at hourly rates.
+Custom calculator to handle reimbursement of driving time at hourly rates.
 
 Employees are reimbursed based on driving time, not mileage.  Their total
 miles at a given hourly rate are converted into hours of their normal hourly
@@ -14,6 +14,7 @@ Uses CSS from [Foundation Essentials](http://foundation.zurb.com/)
 2. Clone repository
 3. `npm install` to install build plumbing
 4. Use `gulp` or `gulp watch` to compile and copy files to the dist directory.  
+  - You will need to call `gulp` the first time you build the project.
   - These tasks automatically call `elm-init` which will download required elm packages.
 
 ## Development Notes & Resources
@@ -26,5 +27,5 @@ Uses CSS from [Foundation Essentials](http://foundation.zurb.com/)
 
 * Improve rounding in view::formatFloat
 * validate int vs float inputs, currently resets to zero
-* local-storage for storing last values
+* HTML5 local-storage for storing last values
 * better distribution creation
